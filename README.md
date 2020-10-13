@@ -7,7 +7,7 @@ An image filter website that enables you to apply several filters and effects to
 ### Initial :
 <img src="https://raw.githubusercontent.com/kevinadhiguna/image-filter/master/demo/1.png" width="90%"></img>
 
-### Filter Options
+### Filter Options :
 <img src="https://raw.githubusercontent.com/kevinadhiguna/image-filter/master/demo/2.png" width="90%"></img>
 
 ### After Filtering :
