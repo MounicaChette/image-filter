@@ -21,4 +21,8 @@ An image filter website that enables you to apply several filters and effects to
 2) Select filters and/or effects you want to apply.
 3) Click `Download Image` button to download edited image. Otherwise you can remove all filters and effects by clicking the `Remove Filter` button then apply changes again!
 
+## Reference
+
+- [CamanJS - Build An Image Filter Web App by Traversy Media](https://youtu.be/MEENB3_9yUw)
+
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/image-filter)](https://github.com/kevinadhiguna)
