@@ -17,4 +17,4 @@ jobs:
    
         
     - name: display stage variables
-      run: echo $variable1
+      run: echo '$variable1'
