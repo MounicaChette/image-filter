@@ -23,4 +23,4 @@ jobs:
         azPSVersion: '3.1.0'
         
     - name: display stage variables
-      run: echo ${{var.variable1}}, $env:variable1
+      run: echo ${{vars.variable1}}, $env:variable1
