@@ -13,9 +13,8 @@ jobs:
     # Checkout code
     steps:
     - name: display environments 
-      uses: actions/checkout@v2
-      
+      uses: actions/checkout@v2     
    
         
     - name: display stage variables
-      run: echo ${{vars.variable1}}, $variable1
+      run: echo $variable1
