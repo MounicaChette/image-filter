@@ -18,4 +18,4 @@ jobs:
    
         
     - name: display stage variables
-      run: echo ${{vars.variable1}}, ${{env.variable1}}
+      run: echo ${{vars.variable1}}, ${{variable1}}
