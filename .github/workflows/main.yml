@@ -1,0 +1,26 @@
+name: test-workflow
+
+
+# Manual trigger with parameters
+on:
+  workflow_dispatch
+  
+jobs:
+
+  Build:
+    runs-on: windows-latest
+
+    # Checkout code
+    steps:
+    - name: display environments 
+      uses: actions/checkout@v2
+      
+    - name: Display Environment Variable
+      uses: azure/powershell@v1
+      with:
+        inlineScript: |
+          dir env:
+        azPSVersion: '3.1.0'
+        
+    - name: display stage variables
+      run: echo ${{var.variable1}}, $env:variable1
